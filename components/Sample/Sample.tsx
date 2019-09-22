@@ -18,7 +18,7 @@ interface ISample {
 
 const SampleWithProps = withProps<ISample, HTMLSpanElement>(styled.span)`
   visibility: ${props => props.visible ? 'visible' : 'hidden'};
-`
+`;
 
 interface IProps {
   text?: string;
@@ -29,6 +29,6 @@ const Test = (props: IProps) => (
     <SampleWithProps visible={true}>🐶{props.text}🦄🐔</SampleWithProps>
     <SampleWithProps visible={false}>🐶{props.text}🦄🐔</SampleWithProps>
   </StyledP>
-)
+);
 
 export default Test;

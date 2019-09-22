@@ -5,5 +5,5 @@
 [X] tslint, tsconfig, prettier  
 [ ] ssr  
 [X] styled-components, styled-reset, react-sizes  
-[ ] storybook  
+[X] storybook  
 [ ] babel
