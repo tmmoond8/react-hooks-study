@@ -27,7 +27,6 @@ interface IProps {
 const Test = (props: IProps) => (
   <StyledP>
     <SampleWithProps visible={true}>🐶{props.text}🦄🐔</SampleWithProps>
-    <SampleWithProps visible={false}>🐶{props.text}🦄🐔</SampleWithProps>
   </StyledP>
 );
 
