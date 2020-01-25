@@ -20,7 +20,6 @@ export default class MyDocument extends Document<IProps> {
     return (
       <html>
         <Head>
-          <title>react boilerplate</title>{this.props.styleTags}
         </Head>
         <body>
           <Main/>

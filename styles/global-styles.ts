@@ -1,5 +1,5 @@
-import reset from "styled-reset";
-import { createGlobalStyle } from "styled-components";
+import reset from 'styled-reset';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -8,6 +8,15 @@ const GlobalStyle = createGlobalStyle`
   }
   body{
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 100%;
+    background-color: #eee;
+    div {
+      height: 100vh;
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      background-color: white;
+    }
   }
   a {
     color: inherit;
